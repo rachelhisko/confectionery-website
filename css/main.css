@@ -1,9 +1,19 @@
 html {
   font-family: Raleway, sans-serif;
+  background-image: url("../images/candy-bg.svg");
+  background-color: #f9b4da;
+  background-repeat: repeat;
+  background-size: 48px auto;
 }
 
 main {
   text-align: center;
+}
+
+body {
+  background-color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 ul {
@@ -49,13 +59,9 @@ li:hover {
 }
 
 .footer {
-  background-color: #f9b4da;
-  border-bottom: 3px solid #d15a90;
-  border-top: 3px solid #d15a90;
-  background-image: url("../images/blank.svg"), url("../images/dots.svg");
-  background-size: 2px 5px, 2px 5px, 18px auto;
-  background-repeat: repeat-x, repeat-x, repeat;
-  background-position: left top, left bottom, left top;
+  background-color: #ffeef8;
+  border-bottom: 3px solid #f9b4da;
+  border-top: 3px solid #f9b4da;
 }
 
 .search-btn {
@@ -85,13 +91,13 @@ li:hover {
 @media only screen and (min-width: 38em) {
 
   h1 {
-   text-align: left;
- }
+    text-align: left;
+   }
 
   nav {
     text-align: right;
   }
-  
+
 }
 
 @media only screen and (min-width: 60em) {
