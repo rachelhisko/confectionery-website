@@ -13,73 +13,6 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 1px;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -.5em;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-size: 100%;
-}
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-
-b,
-strong {
-  font-weight: bold;
-}
-
-dfn,
-caption {
-  font-style: italic;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid;
-  height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  table-layout: fixed;
-}
-
-caption {
-  text-align: left;
-}
-
-th,
-td {
-  border-bottom: 1px solid;
-  text-align: left;
-  vertical-align: top;
-}
-
-thead th {
-  vertical-align: bottom;
-}
-
 .text-left {
   text-align: left;
 }
@@ -95,30 +28,6 @@ thead th {
 .normal {
   font-weight: normal;
   font-style: normal;
-}
-
-.not-bold {
-  font-weight: normal;
-}
-
-.not-italic {
-  font-style: normal;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.text-upper {
-  text-transform: uppercase;
-}
-
-.text-lower {
-  text-transform: lowercase;
 }
 
 .wrapper {
@@ -177,32 +86,6 @@ h2,
 .peta {
   font-size: 1.2962rem;
   line-height: 1.95rem;
-}
-
-h3,
-.tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
-}
-
-h4,
-.giga {
-  font-size: 1.1385rem;
-  line-height: 1.625rem;
-}
-
-h5,
-.mega {
-  font-size: 1.067rem;
-  line-height: 1.625rem;
-}
-
-h6,
-.kilo,
-input,
-textarea {
-  font-size: 1rem;
-  line-height: 1.3rem;
 }
 
 small,
