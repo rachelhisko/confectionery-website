@@ -1,5 +1,5 @@
 html {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 main {
@@ -80,6 +80,18 @@ li:hover {
 .gallery {
   max-width: 100%;
   display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+   text-align: left;
+ }
+
+  nav {
+    text-align: right;
+  }
+  
 }
 
 @media only screen and (min-width: 60em) {
