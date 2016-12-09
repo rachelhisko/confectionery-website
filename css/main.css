@@ -70,12 +70,12 @@ li:hover {
 }
 
 .search-input {
-  border-color: #d15a90;
+  border-color: #f9b4da;
   background-image: url("../images/spy-glass.svg");
   background-repeat: no-repeat;
   background-position: .2em center;
   background-size: 1.2em auto;
-  padding-left: 1.5em;
+  padding-left: 1em;
 }
 
 .staff {
@@ -92,7 +92,7 @@ li:hover {
 
   h1 {
     text-align: left;
-   }
+  }
 
   nav {
     text-align: right;
