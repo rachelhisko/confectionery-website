@@ -52,7 +52,7 @@ li:hover {
   background-color: #f9b4da;
   border-bottom: 3px solid #d15a90;
   border-top: 3px solid #d15a90;
-  background-image: url("../images/blank.svg"), url("../images/dots.svg")
+  background-image: url("../images/blank.svg"), url("../images/dots.svg");
   background-size: 2px 5px, 2px 5px, 18px auto;
   background-repeat: repeat-x, repeat-x, repeat;
   background-position: left top, left bottom, left top;
@@ -79,7 +79,6 @@ li:hover {
 
 .gallery {
   max-width: 100%;
-  align: center;
   display: block;
 }
 
