@@ -12,21 +12,126 @@
 </head>
 <body>
 
-  <header class="grid">
-    <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 grid-middle">
+  <header class="grid pad-t-1-2">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <h1>Beau's Bonbons</h1>
     </div>
-    <div class="unit xs-1-3 s-1-3 m-1-4">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <nav>
-        <ul>
-          <li class="unit xs-1-3"><a href="#">Our Story</a></li>
-          <li class="unit xs-1-3"><a href="#">Gallery</a></li>
-          <li class="unit xs-1-3"><a href="#">Our Staff</a></li>
-          <li class="unit xs-1-3"><a href="#">Contact</a></li>
+        <ul class="list-group-inline">
+          <li class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 gutter-1-2"><a href="#">Our Story</a></li>
+          <li class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 gutter-1-2"><a href="#">Gallery</a></li>
+          <li class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 gutter-1-2"><a href="#">Our Staff</a></li>
+          <li class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 gutter-1-2"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
+    <div class="banner">
+      <img class="img-flex" src="images/banner.jpg" alt="">
+    </div>
   </header>
+
+  <main>
+    <div class="line">
+      <h2>Our Story</h2>
+      <i class="icon i-64"><img src="images/heart.svg" alt=""></i>
+      <p>Beau’s Bonbons is a creative company that offers many products, we off anything from hard candies to beautifully designed cookies. We Have it all! We are hardworking and will meet all of our candy lover’s needs. All of our products are hand made with pride by our family of dedicated employees. </p>
+    </div>
+
+    <div class="line">
+      <div>
+        <h2>Gallery</h2>
+        <i class="icon i-64"><img src="images/one-strip.svg" alt=""></i>
+      </div>
+      <div class="grid">
+        <div class="gallery unit xs-1">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/candy.jpg" alt="">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/gum-drops.jpg" alt="">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/sprinkles.jpg" alt="">
+        </div>
+        <div class="gallery unit xs-1">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/gummy-worms.jpg" alt="">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/cookies.jpg" alt="">
+          <img class="xs-1-2 s-1-2 m-1-4" src="images/candy-2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="line">
+      <div>
+        <h2>Our Staff</h2>
+        <i class="icon i-64"><img src="images/heart.svg" alt=""></i>
+      </div>
+      <div class="grid xs-1">
+        <div class="staff unit xs-1">
+          <img class="unit xs-1-2 s-1-2 m-1-4" src="images/man.jpg" alt="">
+          <img class="unit xs-1-2 s-1-2 m-1-4" src="images/man-2.jpg" alt="">
+          <img class="unit xs-1-2 s-1-2 m-1-4" src="images/lady.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="line">
+      <h2>Contact</h2>
+      <i class="icon i-64"><img src="images/blank.svg" alt=""></i>
+      <p>Phone Number</p>
+      <p>613-445-2123</p>
+      <p>Email<p>
+      <p>beaubonbons@beaubonbons.ca</p>
+      <p>Address</p>
+      <p>1123 Townline rd, k7c 3w8, Carleton Place Ontario</p>
+    </div>
+
+    <section>
+      <div>
+        <h2>Leave a Comment</h2>
+        <form method="POST" action="https://formspree.io/hiskoduck@hotmail.com">
+          <div>
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="me@me.com">
+          </div>
+          <div>
+            <label for="name">First Name</label>
+            <input id="name">
+          </div>
+          <div class="push">
+            <label for="details">Comment</label>
+            <textarea id="details" name="message"></textarea>
+          </div>
+          <div>
+            <button class="btn btn-light" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer grid grid-middle pad-t pad-b">
+    <div class="unit xs-1 s-1 m-1-2 milli gutter-1-2 pad-t pad-b">
+      <nav>
+        <ul class="list-group-inline push-0">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Our Staff</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="push-0">© Beau's Bonbons</p>
+    </div>
+    <form class="unit xs-1 s-1 m-1-2 push-0 pad-t-1-2 pad-b-1-2">
+      <div class="grid grid-middle">
+        <div class="search-label unit xs-1 s-1 m-1 l-1-4 gutter-1-2">
+          <label for="search">Search</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
+          <input class="search-input" type="search" id="search">
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-4 gutter-1-2 pad-t-1-2 pad-b-1-2">
+          <button class="search-btn btn w-1" type="submit">Find</button>
+        </div>
+      </div>
+    </form>
+  </footer>
 
 </body>
 </html>
