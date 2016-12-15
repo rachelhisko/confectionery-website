@@ -66,16 +66,6 @@ caption {
   margin: 0 0 1.3rem;
 }
 
-.yotta {
-  font-size: 1.5745rem;
-  line-height: 2.275rem;
-}
-
-.zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
-}
-
 h1,
 .exa {
   font-size: 1.383rem;
@@ -88,40 +78,12 @@ h2,
   line-height: 1.95rem;
 }
 
-small,
-.milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
-}
-
-.micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
-}
-
 ul {
   padding-left: 1em;
 }
 
 ol {
   padding-left: 1.6em;
-}
-
-input,
-option,
-select {
-  height: calc(1.3rem + .1625rem + .1625rem);
-}
-
-input[type="color"] {
-  width: calc(1.3rem + .1625rem + .1625rem);
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline-block;
-  height: auto;
-  width: auto;
 }
 
 .push {
@@ -312,16 +274,6 @@ caption {
     margin: 0 0 1.4rem;
   }
 
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3.15rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 2.8rem;
-  }
-
   h1,
   .exa {
     font-size: 1.802rem;
@@ -332,43 +284,6 @@ caption {
   .peta {
     font-size: 1.6018rem;
     line-height: 2.1rem;
-  }
-
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 2.1rem;
-  }
-
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.75rem;
-  }
-
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.4rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.4rem;
   }
 
   ul,
@@ -384,19 +299,6 @@ caption {
   ol ol,
   ul ol {
     padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.35rem;
-    margin-right: -.35rem;
-    width: calc(100% + .35rem + .35rem);
   }
 
   input,
@@ -628,43 +530,6 @@ caption {
     line-height: 2.25rem;
   }
 
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
-  }
-
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
-  }
-
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
-  }
-
   ul,
   ol {
     padding-left: 0;
@@ -678,19 +543,6 @@ caption {
   ol ol,
   ul ol {
     padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
   }
 
   input,
@@ -900,16 +752,6 @@ caption {
     margin: 0 0 1.5rem;
   }
 
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
-  }
-
   h1,
   .exa {
     font-size: 1.802rem;
@@ -920,43 +762,6 @@ caption {
   .peta {
     font-size: 1.6018rem;
     line-height: 2.25rem;
-  }
-
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
-  }
-
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
-  }
-
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
   }
 
   ul,
@@ -979,18 +784,6 @@ caption {
     margin-left: -1.4em;
     text-align: right;
     width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
   }
 
   input[type="color"] {

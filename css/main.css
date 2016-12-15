@@ -1,6 +1,6 @@
 html {
   font-family: Raleway, sans-serif;
-  background-image: url("../images/candy-bg.svg");
+  background-image: url("../images/heart.svg");
   background-color: #f9b4da;
   background-repeat: repeat;
   background-size: 48px auto;
@@ -22,6 +22,11 @@ ul {
 
 h1 {
   color: #d15a90;
+}
+
+h2 {
+  background-color: #e298bd;
+  color: #fff;
 }
 
 a {
